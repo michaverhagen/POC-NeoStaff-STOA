@@ -1,0 +1,286 @@
+{
+    "classes": [
+        {
+            "class": "Relatie",
+            "vectorizer": "text2vec-contextionary",
+            "moduleConfig": {
+                "text2vec-contextionary": {
+                    "vectorizeClassName": true
+                }
+            },
+            "properties": [
+                {
+                    "description": "id",
+                    "name": "identifier",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": true,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "Beheerschema",
+                    "name": "heeftSchema",
+                    "dataType": [
+                        "Schema"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": true,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "ingangsdatum relatie",
+                    "name": "startDatum",
+                    "dataType": [
+                        "date"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "voornaam",
+                    "name": "voornaam",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "achternaam",
+                    "name": "achternaam",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "tussenv.",
+                    "name": "tussenvoegsel",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "mailadres",
+                    "name": "email",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": true,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "gsm nummer",
+                    "name": "mobielNummer",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": true,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "geboortedatum",
+                    "name": "geboorteDatum",
+                    "dataType": [
+                        "date"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "bedrijfsnaam",
+                    "name": "vanBedrijf",
+                    "dataType": [
+                        "Bedrijf"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": true,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "Interesse",
+                    "name": "heeftInteresses",
+                    "dataType": [
+                        "Interesse"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "class": "Schema",
+            "vectorizer": "text2vec-contextionary",
+            "moduleConfig": {
+                "text2vec-contextionary": {
+                    "vectorizeClassName": true
+                }
+            },
+            "properties": [
+                {
+                    "description": "NA",
+                    "name": "name",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "NA",
+                    "name": "vanRelatie",
+                    "dataType": [
+                        "Relatie"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "class": "Interesse",
+            "vectorizer": "text2vec-contextionary",
+            "moduleConfig": {
+                "text2vec-contextionary": {
+                    "vectorizeClassName": true
+                }
+            },
+            "properties": [
+                {
+                    "description": "NA",
+                    "name": "name",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "NA",
+                    "name": "vanRelatie",
+                    "dataType": [
+                        "Relatie"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "class": "Bedrijf",
+            "vectorizer": "text2vec-contextionary",
+            "moduleConfig": {
+                "text2vec-contextionary": {
+                    "vectorizeClassName": true
+                }
+            },
+            "properties": [
+                {
+                    "description": "NA",
+                    "name": "name",
+                    "dataType": [
+                        "string"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
+                    "description": "NA",
+                    "name": "vanRelatie",
+                    "dataType": [
+                        "Relatie"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
