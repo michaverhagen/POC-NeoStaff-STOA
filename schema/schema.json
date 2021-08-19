@@ -52,6 +52,20 @@
                     }
                 },
                 {
+                    "description": "NA",
+                    "name": "contactDatum",
+                    "dataType": [
+                        "date"
+                    ],
+                    "indexInverted": false,
+                    "moduleConfig": {
+                        "text2vec-contextionary": {
+                            "skip": false,
+                            "vectorizePropertyName": false
+                        }
+                    }
+                },
+                {
                     "description": "voornaam",
                     "name": "voornaam",
                     "dataType": [
