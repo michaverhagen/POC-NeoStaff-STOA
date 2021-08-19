@@ -19,6 +19,14 @@ def generate_uuid(classname, identifier):
     return str(uuid.uuid5(uuid.NAMESPACE_DNS, classname + identifier))
 
 
+def convert_datetime_to_RFC3339(value):
+    result = value.split('.')
+    rfc3339 = result[0] + 'Z'
+    rfc3339 = rfc3339.replace(' ', 'T')
+
+    return rfc3339
+
+
 def convert_date_to_RFC3339(value):
     date = value.split('-')
     day = int(date[0])
