@@ -11,6 +11,7 @@ QUERY_TEMPLATE = """
           id
       }
       achternaam
+      schema
       email
       geboorteDatum
       contactDatum
