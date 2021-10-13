@@ -25,9 +25,9 @@
                 },
                 {
                     "description": "Beheerschema",
-                    "name": "heeftSchema",
+                    "name": "schema",
                     "dataType": [
-                        "Schema"
+                        "string"
                     ],
                     "indexInverted": false,
                     "moduleConfig": {
@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "description": "NA",
+                    "description": "contactDatum",
                     "name": "contactDatum",
                     "dataType": [
                         "date"
@@ -168,45 +168,6 @@
                     "name": "heeftInteresses",
                     "dataType": [
                         "Interesse"
-                    ],
-                    "indexInverted": false,
-                    "moduleConfig": {
-                        "text2vec-contextionary": {
-                            "skip": false,
-                            "vectorizePropertyName": false
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "class": "Schema",
-            "vectorizer": "text2vec-contextionary",
-            "moduleConfig": {
-                "text2vec-contextionary": {
-                    "vectorizeClassName": true
-                }
-            },
-            "properties": [
-                {
-                    "description": "NA",
-                    "name": "name",
-                    "dataType": [
-                        "string"
-                    ],
-                    "indexInverted": false,
-                    "moduleConfig": {
-                        "text2vec-contextionary": {
-                            "skip": false,
-                            "vectorizePropertyName": false
-                        }
-                    }
-                },
-                {
-                    "description": "NA",
-                    "name": "vanRelatie",
-                    "dataType": [
-                        "Relatie"
                     ],
                     "indexInverted": false,
                     "moduleConfig": {

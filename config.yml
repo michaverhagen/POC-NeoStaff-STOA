@@ -8,6 +8,7 @@ weaviate:
     debug: False
     verbose: True
     delay: 2.0
+    delay: 0.1
     max_batch_size: 1000
 
 

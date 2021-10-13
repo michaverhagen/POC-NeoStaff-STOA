@@ -61,16 +61,18 @@ def _send_message(service, user_id, message):
         print('An error occurred:', e)
 
 
-def _create_message(subject, template, address):
+def _create_message(subject, template, address, name):
     """Create a message """
 
     output = None
     with open(template, 'r') as file:
         content = file.read().replace('\n', '')
-        messagetext = content.replace('{{ firstname }}', "Roland")
+        messagetext = content.replace('{{ firstname }}', name)
 
         message = MIMEText(messagetext, 'html')
-        message['to'] = address
+        message['to'] = "roland.bulder@neostaf.com"
+        #message['to'] = "micha.verhagen@gmail.com"
+        #message['to'] = address
         message['from'] = 'Micha Verhagen <micha@semi.technology>'
         message['subject'] = subject
         output = {'raw': base64.b64encode(str.encode(message.as_string())).decode('utf-8')}
@@ -78,7 +80,7 @@ def _create_message(subject, template, address):
     return output
 
 
-def send_mail(subject, template, address):
+def send_mail(action):
     service = _initialize_service()
-    message = _create_message(subject, template, address)
+    message = _create_message(action['subject'], action['template'], action['relatie']['email'], action['relatie']['voornaam'])
     _send_message(service, 'me', message)

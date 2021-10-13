@@ -22,7 +22,7 @@ def _simulate(delay):
         current = now + datetime.timedelta(days=count)
         _check_activity(today=current)
         time.sleep(delay)
-        if count > 20:
+        if count > 365:
             break
 
 

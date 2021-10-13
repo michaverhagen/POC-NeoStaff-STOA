@@ -102,13 +102,6 @@ def _cross_reference(instance: dict, client: weaviate.client, data: list):
                 count += 2
                 print("Cross referencing entities -----------------", count, end='\r')
 
-        if 'heeftSchema' in relatie:
-            for name in relatie['heeftSchema']:
-                euuid = generate_uuid("Schema", name)
-                client.data_object.reference.add(iuuid, "heeftSchema", euuid)
-                client.data_object.reference.add(euuid, "vanRelatie", iuuid)
-                count += 2
-                print("Cross referencing entities -----------------", count, end='\r')
     print("Cross referencing entities -----------------", count)
 
 

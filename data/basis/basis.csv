@@ -1,24 +1,24 @@
-id,Beheerschema,ingangsdatum relatie,voornaam,achternaam,tussenv.,mailadres,gsm nummer,geboortedatum,bedrijfsnaam,Interesse,Interesse,Interesse
-N000001,B,1-4-2018,Martin ,Weltje,,martin.weltje@vlc-partners.nl,651220645,14-5-1976,VLC,,,
-N000002,A,1-1-2009,Jeroen,Hertog,,jeroen.hertog@vlc-partners.nl,653504253,28-5-1970,VLC,Ajax,Reizen naar Azie / Latijns Amerika,Auto's
-N000003,B,1-6-2019,Marjolijn,Benneker,,marjolijn@bricklog.nl,614429433,10-9-1972,Bricklog,Zeilen,Land Rover Defender ,Data-analyse en gebruik
-N000004,A,1-1-1999,Odise,Bulder,,Info@hrmgrip.nl,615619668,22-7-1972,HRMGrip,Motorrijden,Ijsbaden,Lezen
-N000005,B,1-6-2019,Hubert,Benneker,,hubert@bricklog.nl,639233907,28-6-1970,Bricklog en Thomassen Transport,Data-analyse en gebruik,Land Rover Defender ,Zeilen
-N000006,C,1-10-2016,Rudy,Vellema,,r.vellema@nextpage.nl,653466933,18-11-1959,Nextpage,Golf,Reizen,Camper
-N000007,B,1-10-2015,Jan,Boeve,,jboeve@tln.nl,610340077,27-4-1961,TLN,Hardlopen ,Reizen,Auto's
-N000008,A,1-11-2018,Gerda,Wiering,,gwiering@tln.nl,652006413,4-6-1971,TLN,Whiskey,Vleesindustrie,Covid tegengeluiden
-N000009,C,1-3-2021,Miranda,Haan,de,miranda@wijzindna.nl,611290642,5-8-1978,DNA,,,
-N000010,C,5-5-2021,Jeanne,Hoogers,,jeanne@wijzijndna.nl,641914658,27-2-1967,DNA,,,
-N000011,B,1-3-2017,Etienne,Luijten,,e.luijten@il-logistiek.nl,654335028,5-9-1974,I&L Logistiek,Wielrennen,Alfa Bier,Platformen 
-N000012,A,1-5-2018,Ad,Ghering,,ad.ghering@zilverenkruis.nl,610702944,13-2-1968,Zilveren Kruis Achmea,Muziek maken,Kamperen,Carnaval
-N000013,A,1-10-2016,Jeroen,Spaans,,jspaans@tln.nl,651806339,3-6-1964,TLN,Golf,Italie,
-N000014,B,1-1-1999,Ron,Goldewijk,,r.goldewijk@talentconnect.nl,654968691,28-4-1959,Talentconnect,Zeilen,Management,
-N000015,C,1-6-2000,Argo ,Bremmer,,Argo@bremmercompany.nl,610963542,6-11-1970,Bremmercompany,Golf,Wijn,Spiritualiteit
-N000016,A,2-6-2009,Micha ,Verhagen,,micha.verhagen@gmail.com,620560857,4-2-1971,Semi Technology,Golf,Extreme wandeltochten,Jennifer Hoffman
-N000017,A,1-6-2017,Edwin,Vianen,van,edwin@n3xt.design,615571759,5-10-1968,N3xt.design,BMW Cabrio,Reizen,
-N000018,C,1-4-2019,Ine,Polak,,ine.polak@abbi-insights.com,630381590,3-9-1987,Abbi-Insights,,,
-N000019,B,1-3-2017,Ronald,Provoost,,ronaldprovoost274@gmail.com,655786352,26-11-1971,H3roes,Rotterdam,Goede doelen,
-N000020,B,1-10-2016,Sjors,Jepkema,,Gjepkema@tln.nl,622229732,28-5-1973,TLN,Graafmachines,Bier,Bromfietsen
-N000021,B,1-9-1986,Paul,Speijer,,paul.speijer@concordiadekeizer.nl,631978486,13-10-1973,Concordia de Keizer / Iglesia,Motorrijden,Max Verstappen,Assurantien
-N000022,B,1-9-1986,Ferry,Jong,de,ferjon@hotmail.com,619786262,13-12-1973,BetterTogether,Spiritualiteit,Slachtofferhulp,Hospice
-N000023,B,1-10-2018,Paul,Wouters,,info@pwcs.nl,651188893,14-11-1960,PWCS,Auto's,Communicatie ,
+id,Beheerschema,ingangsdatum relatie,voornaam,achternaam,tussenv.,mailadres,gsm nummer,geboortedatum,contactDatum,bedrijfsnaam,Interesse,Interesse,Interesse
+N000001,B,1-4-2018,Martin ,Weltje,,martin.weltje@vlc-partners.nl,651220645,14-5-1976,1-6-2020,VLC,,,
+N000002,A,1-1-2009,Jeroen,Hertog,,jeroen.hertog@vlc-partners.nl,653504253,28-5-1970,21-1-2021,VLC,Ajax,Reizen naar Azie / Latijns Amerika,Auto's
+N000003,B,1-6-2019,Marjolijn,Benneker,,marjolijn@bricklog.nl,614429433,10-9-1972,16-3-2019,Bricklog,Zeilen,Land Rover Defender ,Data-analyse en gebruik
+N000004,A,1-1-1999,Odise,Bulder,,Info@hrmgrip.nl,615619668,22-7-1972,12-3-2021,HRMGrip,Motorrijden,Ijsbaden,Lezen
+N000005,B,1-6-2019,Hubert,Benneker,,hubert@bricklog.nl,639233907,28-6-1970,15-8-2020,Bricklog en Thomassen Transport,Data-analyse en gebruik,Land Rover Defender ,Zeilen
+N000006,C,1-10-2016,Rudy,Vellema,,r.vellema@nextpage.nl,653466933,18-11-1959,12-12-2021,Nextpage,Golf,Reizen,Camper
+N000007,B,1-10-2015,Jan,Boeve,,jboeve@tln.nl,610340077,27-4-1961,1-10-2021,TLN,Hardlopen ,Reizen,Auto's
+N000008,A,1-11-2018,Gerda,Wiering,,gwiering@tln.nl,652006413,4-6-1971,1-8-2020,TLN,Whiskey,Vleesindustrie,Covid tegengeluiden
+N000009,C,1-3-2021,Miranda,Haan,de,miranda@wijzindna.nl,611290642,5-8-1978,1-5-2021,DNA,,,
+N000010,C,5-5-2021,Jeanne,Hoogers,,jeanne@wijzijndna.nl,641914658,27-2-1967,12-7-2020,DNA,,,
+N000011,B,1-3-2017,Etienne,Luijten,,e.luijten@il-logistiek.nl,654335028,5-9-1974,4-6-2020,I&L Logistiek,Wielrennen,Alfa Bier,Platformen 
+N000012,A,1-5-2018,Ad,Ghering,,ad.ghering@zilverenkruis.nl,610702944,13-2-1968,15-6-2020,Zilveren Kruis Achmea,Muziek maken,Kamperen,Carnaval
+N000013,A,1-10-2016,Jeroen,Spaans,,jspaans@tln.nl,651806339,3-6-1964,1-3-2021,TLN,Golf,Italie,
+N000014,B,1-1-1999,Ron,Goldewijk,,r.goldewijk@talentconnect.nl,654968691,28-4-1959,28-2-2020,Talentconnect,Zeilen,Management,
+N000015,C,1-6-2000,Argo ,Bremmer,,Argo@bremmercompany.nl,610963542,6-11-1970,1-7-2020,Bremmercompany,Golf,Wijn,Spiritualiteit
+N000016,A,2-6-2009,Micha ,Verhagen,,micha.verhagen@gmail.com,620560857,4-2-1971,3-8-2021,Semi Technology,Golf,Extreme wandeltochten,Jennifer Hoffman
+N000017,A,1-6-2017,Edwin,Vianen,van,edwin@n3xt.design,615571759,5-10-1968,15-12-2020,N3xt.design,BMW Cabrio,Reizen,
+N000018,C,1-4-2019,Ine,Polak,,ine.polak@abbi-insights.com,630381590,3-9-1987,12-6-2021,Abbi-Insights,,,
+N000019,B,1-3-2017,Ronald,Provoost,,ronaldprovoost274@gmail.com,655786352,26-11-1971,1-2-2020,H3roes,Rotterdam,Goede doelen,
+N000020,B,1-10-2016,Sjors,Jepkema,,Gjepkema@tln.nl,622229732,28-5-1973,6-11-2020,TLN,Graafmachines,Bier,Bromfietsen
+N000021,B,1-9-1986,Paul,Speijer,,paul.speijer@concordiadekeizer.nl,631978486,13-10-1973,15-11-2020,Concordia de Keizer / Iglesia,Motorrijden,Max Verstappen,Assurantien
+N000022,B,1-9-1986,Ferry,Jong,de,ferjon@hotmail.com,619786262,13-12-1973,15-4-2021,BetterTogether,Spiritualiteit,Slachtofferhulp,Hospice
+N000023,B,1-10-2018,Paul,Wouters,,info@pwcs.nl,651188893,14-11-1960,1-5-2021,PWCS,Auto's,Communicatie ,
